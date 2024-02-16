@@ -1,0 +1,65 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "user_name": "Mayur Ashok Gavade",
+      "user_pan": "ABCD1234E",
+      "user_mobile": "9810246311",
+      "user_address": "Pune"
+    },
+    {
+      "id": 2,
+      "user_name": "Jatin Anil Tonge",
+      "user_pan": "ABCD1234E",
+      "user_mobile": "9810246311",
+      "user_address": "Wani"
+    },
+    {
+      "id": 3,
+      "user_name": "Dilip Govind Jadhav",
+      "user_pan": "ABCD1234E",
+      "user_mobile": "9810246311",
+      "user_doc": "user.png",
+      "user_address": "Nanded"
+    },
+    {
+      "id": 4,
+      "user_name": "Ganesh Balaji Karale",
+      "user_pan": "ABCD1234E",
+      "user_mobile": "9810246311",
+      "user_address": "Latur"
+    },
+    {
+      "user_name": "Akshay Anil Nalkol",
+      "user_pan": "BZYPN4814P",
+      "user_mobile": "9372841158",
+      "user_address": "Abroad",
+      "id": 5
+    },
+    {
+      "user_name": "Sainath Govind Ibitwar",
+      "user_pan": "ABCD1234E",
+      "user_mobile": "9810246311",
+      "user_address": "Pune",
+      "id": 6
+    }
+  ],
+  "clientUsers": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "users": [1], 
+      "createdAt": "2024-01-01 00:00:00",
+      "updatedAt": "2024-01-02 00:00:00",
+      "deletedAt": null,
+      "active": true
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Company A",
+      "users": [1]
+    }
+  ]
+}
